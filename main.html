@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teyvat</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <!-- SideBar Toggle -->
+    <input type="checkbox" id="Teyvat">
+
+    <!-- Close button checkbox -->
+    <input type="checkbox" id="close-content">
+
+    <!-- Hidden Navigation -->
+    <input type="radio" id="pageMondstadt" name="nav" checked>
+    <input type="radio" id="pageLiYue" name="nav">
+    <input type="radio" id="pageInazuma" name="nav">
+    <input type="radio" id="pageSumeru" name="nav">
+    <input type="radio" id="pageFontaine" name="nav">
+    <input type="radio" id="pageNatlan" name="nav">
+
+    <!-- SideBar Navigation -->
+    <div class="postcardContainer">
+      <nav class="Sidebar">
+        <label for="Teyvat">
+          <h1>提瓦特</h1>
+        </label>
+
+        <div class="Maps">
+          <ul>
+            <li>
+              <label for="pageMondstadt">
+                <span class="placeTitle">蒙德</span>
+              </label>
+            </li>
+            <li>
+              <label for="pageLiYue">
+                <span class="placeTitle">璃月</span>
+              </label>
+            </li>
+            <li>
+              <label for="pageInazuma">
+                <span class="placeTitle">稻妻</span>
+              </label>
+            </li>
+            <li>
+              <label for="pageSumeru">
+                <span class="placeTitle">须弥</span>
+              </label>
+            </li>
+            <li>
+              <label for="pageFontaine">
+                <span class="placeTitle">枫丹</span>
+              </label>
+            </li>
+            <li>
+              <label for="pageNatlan">
+                <span class="placeTitle">纳塔</span>
+            </label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Postcard Content -->
+      <main class="mainContent"> 
+        <section id="Mondstadt" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/mondstadt.jpg" alt="mondstadt.jpg" class="landmarkImage">
+            <p>蒙德</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Ms-cName">
+              <p>温迪</p>
+            </div>
+            <picture class="Anemo">
+              <source
+                srcset="ImageCharacter/Venti.jpg 6244w 3508h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Venti.jpg" alt="Venti.jpg">
+              <aside>
+                <p>终点并不意味着一切。在抵达终点之前，用你的眼睛多多观察这个世界吧。 旅行者，当你重新踏上旅途后，一定要记得旅途本身的意义。 
+                复白亘古事，诗人起歌喉。 随风飘荡的，不止是旅人与诗歌。 有些音符，是不能对普通听众弹奏的，它会带来高天之风。</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Ms-cName">
+              <p>琴·古恩希尔德</p>
+            </div>
+            <picture class="Anemo">
+              <source
+                srcset="ImageCharacter/Jean.jpg 1920w 1080h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Jean.jpg" alt="Jean.jpg">
+              <aside>
+                <p>我谨代表西风骑士团，向你为蒙德所做的一切致以谢意。
+                还请你劳逸结合，量力而……怎么了，你突然笑了起来，我说了什么奇怪的话吗？</p>
+                <p>「蒲公英，蒲公英，跟风一起，到远方去吧。」……它乘上风，说不定连天空岛都能飞到呢。</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Ms-cName">
+              <p>优菈·劳伦斯</p>
+            </div>
+            <picture class="Anemo">
+              <source
+                srcset="ImageCharacter/Eula.jpg 1920w 1317h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Eula.jpg" alt="Eula.jpg">
+              <aside>
+                <p>我的骨哨能吹出各种音色，迷惑敌人，相当实用。我经常用它吹奏海浪的声音，「浪花骑士」的称号就是这样来的。
+                但没人在乎，这骨哨的技艺起源于璃月。毕竟他们也不会去深究…一个被蒙德排斥的罪人，找了个被人遗忘的璃月人当老师嘛。</p>
+                <p>劳伦斯家的传统倒也不全是糟粕，至少「祭礼之舞」纯净而高洁，让我心境平和，给过我不少慰藉。
+                这么多年来，我一直没有放下它，每个舞步都刻进了我的身体…所以，言归正传，想要学到只属于我的「西风剑术」，还得先过舞蹈这关。</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+
+        <section id="LiYue" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/liyue.jpg" alt="liyue.jpg" class="landmarkImage">
+            <p>璃月</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Ly-cName">
+              <p>钟离</p>
+            </div>
+            <picture class="Geo">
+              <source
+                srcset="ImageCharacter/ZhongLi.webp 3840w 2160h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/webp">
+              <img src="ImageCharacter/ZhongLi.webp" alt="ZhongLi.webp">
+              <aside>
+                <p>欲买桂花同载酒...只可惜故人，何日再见呢?</p>
+                <p>在你通向那个人的路上，也许会有更多困难，但只要你坚信这条路通往「正确』，一切就有意义,</p>
+                <p>旅程总有一天会迎来终点，不必匆忙</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Ly-cName">
+              <p>申鹤</p>
+            </div>
+            <picture class="Geo">
+              <source
+                srcset="ImageCharacter/ShenHe.jpg 1920w 1080h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/ShenHe.jpg" alt="ShenHe.jpg">
+              <aside>
+                <p>为什么说「初雪多浪漫」？那处山巅日日下雪，何日才算是初雪？我不理解，请你告诉我。</p>
+                <p>「受我恩惠的人叫我仙人，被我惩罚的人喊我魔女，呵…不管是仙是魔，终究都是跟凡人不同的异类罢了…</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+
+        <section id="Inazuma" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/inazuma.webp" alt="inazuma.webp" class="landmarkImage">
+            <p>稻妻</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Iz-cName">
+              <p>雷电影</p>
+            </div>
+            <picture class="Electro">
+              <source
+                srcset="ImageCharacter/RaidenShogun.jpg 1920w 1080h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/RaidenShogun.jpg" alt="RaidenShogun.jpg">
+              <aside>
+                <p>浮世景色，百千年依旧，人之在世，却如白鹿语泡影，虚无。</p>
+                <p>此身应许臣民一梦，即是千世万代不变不移的「永恒」！</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Iz-cName">
+              <p>八重神子</p>
+            </div>
+            <picture class="Electro">
+              <source
+                srcset="ImageCharacter/YaeMiko.webp 4096w 2346h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/webp">
+              <img src="ImageCharacter/YaeMiko.webp" alt="YaeMiko.webp">
+              <aside>
+                <p>与我而言，不变也是一种美好，哎呀，可尘世那是如此不变之物。</p>
+                <p>所谓的永恒，就是不再失去已拥有之物，但从别的角度说，也放弃了得到更多的可能，
+                不过世事总是如此，没人能够得到全部。</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+
+        <section id="Sumeru" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/sumeru.jpg" alt="sumeru.jpg" class="landmarkImage">
+            <p>须弥</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Sm-cName">
+              <p>纳西妲</p>
+            </div>
+            <picture class="Dendro">
+              <source
+                srcset="ImageCharacter/Nahida.jpg 3840w 2160h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Nahida.jpg" alt="Nahida.jpg">
+              <aside>
+                <p>出于保护自己的理由，人们会远离痛苦，拥抱安逸，这是人类的本能，也是弱点之一，
+                但为什么有那么多人，明知危险，却奋力向前，为什么明知痛苦仍然会迎难而上，
+                因为人类不只是为了自己而活着，他们有家人，有挚爱，有朋友，有家园，有尚未实现的人生理想，生命的道路非常漫长，我们都很难看到终点……</p>
+                <p>很多时候，我们直到经受切肤之痛，才不得不直视自身的懒惰，愚昧，鲁莽或傲慢。
+                但大可不必为此懊悔，我们无法观测未来的所有可能性，只能靠这样略显笨拙的方式获取知识。学费而已，再正常不过啦。</p>
+                <p>——自我并非生命意义的全部，每一次行动都是对自我与世界的塑造。</p>
+                <p>不是所有折翼坠落的鹰，都能腾空而起， 但如果不冒这个险，那就永远碰不到天空。</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+
+        <section id="Fontaine" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/fontaine.webp" alt="fontaine.webp" class="landmarkImage">
+            <p>枫丹</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Ft-cName">
+              <p>芙宁娜·德·枫丹</p>
+            </div>
+            <picture class="Hydro">
+              <source
+                srcset="ImageCharacter/Furina.jpeg 4096w 2048h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpeg">
+              <img src="ImageCharacter/Furina.jpeg" alt="Furina.jpeg">
+              <aside>
+                <p>感情最终都会回归人心，随时间逐渐沉淀。</p>
+                <p>举起双手,有时可并不代表投降。</p>
+                <p>把答案留给时间去验证吧。</p>
+                <p>这世间最为精彩的，不就是属于人类的爱恨情仇吗？</p>
+                <p>就像人类吃饭一样，明天也许吃不到，但今天能吃。就要继续吃。人们管这个叫生活。</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Ft-cName">
+              <p>娜维娅·卡萨帕</p>
+            </div>
+            <picture class="Hydro">
+              <source
+                srcset="ImageCharacter/Navia.jpg 3840w 2160h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Navia.jpg" alt="Navia.jpg">
+              <aside>
+                <p>盲目乐观可不行，幸福的生活要靠自己的双手去争取！
+                所以，来，握住我的双手，左右摇晃几下——怎么样，是不是很开心？</p>
+                <p>久雨莲的颜色真好看啊。而且当你看到它们纷纷绽放的时候，就说明漫长的雨季终于过去了。</p>
+                <p>人还是要有些浪漫情怀才行。春天的花，夏天的海，还有朋友的笑容，都不该是被忽略的景色。</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Ft-cName">
+              <p>阿蕾奇诺</p>
+            </div>
+            <picture class="Hydro">
+              <source
+                srcset="ImageCharacter/Peruere.jpg 1920w 1080h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Peruere.jpg" alt="Peruere.jpg">
+              <aside>
+                <p>如果将世界比作舞台，每个人都要找好自己的位置。
+                我更适合坐在观众席上，你呢？愿意坐在我的身旁，还是去登台亮相？</p>
+                <p>生命短暂，如同烛火，何必执着于长久。</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+
+        <section id="Natlan" class="content-section">
+          <div class="landmarkTitle">
+            <img src="ImageWorldLand/natlan.avif" alt="natlan.avif" class="landmarkImage">
+            <p>纳塔</p>
+          </div>
+          <div class="characterIntro">
+            <div class="Nt-cName">
+              <p>玛薇卡</p>
+            </div>
+            <picture class="Pyro">
+              <source
+                srcset="ImageCharacter/Mavuika.webp 22000w 1100h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/webp">
+              <img src="ImageCharacter/Mavuika.webp" alt="Mavuika.webp">
+              <aside>
+                <p>无论何等渺小的火星,也终将被人注视</p>
+                <p>即便是微小的火星，聚燃而起，也会化作盛大的烈焰</p>
+                <p>成为火之前，请先为自我的存在而骄傲</p>
+                <p>小时候我父亲告诉我，一个木桶能装多少水，取决于最短的那块木板，
+                但如果想要不断进步，就要甘愿成为那块最短的木板——承认自我的不足，向优秀者请教，这样的人并不是失败者，而是进取者。</p>
+                <p>星海幽暗，孤寂无垠，直到有人点燃了自我</p>
+              </aside>
+            </picture>
+          </div>
+
+          <div class="characterIntro">
+            <div class="Nt-cName">
+              <p>希诺宁</p>
+            </div>
+            <picture class="Pyro">
+              <source
+                srcset="ImageCharacter/Xilonen.jpg 728w 410h"
+                sizes="(max-width: 1500px, max-height: 1000px) 1200px, 700px"
+                type="image/jpg">
+              <img src="ImageCharacter/Xilonen.jpg" alt="Xilonen.jpg">
+              <aside>
+                <p>无论有多忙，也要为自己挤出休息的时间。一直工作个不停的话，身体和头脑就会接连罢工，在这种状态下，是不会做出好成果的。
+                挤不出来时间？那你就说…我临时找你有事，到我的工坊来睡一会吧，我会帮你瞒过去的。</p>
+                <p>我是搞不懂养绿植这件事了…我明明按照要求，三天浇一次水，五天除一次草，每周施肥两次，
+                而且也严格保证了它们受到日照的时长…但我手里的这些绿植还是全都枯萎了。
+                唉…难道养花种草这件事也要看运气？</p>
+              </aside>
+            </picture>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
